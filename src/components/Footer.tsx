@@ -17,7 +17,7 @@ const Footer = ({ isDarkMode }: FooterProps) => {
   return (
     <AnimatedFooter
       brandName="Monexa Healthtech"
-      className="flex flex-row items-center justify-center text-center"
+      className="w-full text-center"
       brandDescription="AI-assisted radiology infrastructure under active research and development."
       navLinks={[
         { label: 'Product', href: '#product' },

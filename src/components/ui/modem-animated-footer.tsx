@@ -35,7 +35,7 @@ export const Footer = ({
 }: FooterProps) => {
   return (
     <section className={cn('relative z-10 mt-0 w-full overflow-hidden', className)}>
-      <footer className="relative border-t border-cyan-200/20 bg-[#052f38] transition-colors duration-300 dark:border-slate-900 dark:bg-[#07050a]">
+      <footer className="relative w-full border-t border-cyan-200/20 bg-[#052f38] transition-colors duration-300 dark:border-slate-900 dark:bg-[#07050a]">
         <div className="relative mx-auto flex min-h-120 max-w-7xl flex-col justify-between p-4 py-10 sm:min-h-140 md:min-h-160">
           <div className="mb-12 flex w-full flex-col sm:mb-20 md:mb-0">
             <div className="flex w-full flex-col items-center justify-between gap-8 md:flex-row md:items-start">
